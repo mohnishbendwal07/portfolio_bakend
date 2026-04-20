@@ -76,7 +76,7 @@ function resetAnimations(section) {
 
 async function loadProjects() {
   try {
-    const res = await fetch(" https://portfolio-bakend-k738.onrender.com");
+    const res = await fetch("https://portfolio-bakend-k738.onrender.com/projects");
     const data = await res.json();
 
     const container = document.querySelector(".project-container");
