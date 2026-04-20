@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+
+  z-index: 1000; /* IMPORTANT FIX */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  gap: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-left span {
+  color: #38bdf8;
+}
+
+.typing {
+  color: #38bdf8;
+  margin-top: 10px;
+  height: 30px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* SOCIALS */
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin-right: 15px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: white;
+}
+
+/* IMAGE */
+.hero-right img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+/* BACKGROUND SHAPES */
+.bg-shapes span {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #38bdf8;
+  opacity: 0.1;
+  border-radius: 50%;
+  animation: float 6s infinite ease-in-out;
+}
+
+.bg-shapes span:nth-child(1) {
+  top: 25%;
+  left: 30%;
+}
+
+.bg-shapes span:nth-child(2) {
+  bottom: 10%;
+  right: 10%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+/* SECTIONS */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* SKILLS */
+.skill-heading {
+  margin-top: 30px;
+  color: #38bdf8;
+}
+
+.skill {
+  margin: 15px 0;
+}
+
+.skill p {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.progress {
+  background: #1e293b;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 8px;
+  width: 0;
+  background: #38bdf8;
+  border-radius: 10px;
+  transition: 1.5s;
+}
+
+/* RIGHT SIDE SKILLS */
+.right .progress {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-bar {
+  transform-origin: right;
+}
+
+/* PROJECTS FIXED */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 0 20px rgba(56,189,248,0.5);
+}
+
+/* CONTACT ICONS */
+.contact-icons {
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  font-size: 28px;
+  margin-right: 20px;
+  color: #38bdf8;
+  transition: 0.3s;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.2);
+  color: white;
+  text-shadow: 0 0 10px #38bdf8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}

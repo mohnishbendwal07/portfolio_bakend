@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohnish Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-left">
+    <img src="/profile.jpeg" class="nav-img">
+    <h2>MB</h2>
+  </div>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    
+<div class="bg-shapes">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span class="small"></span> <!-- NEW -->
+</div>
+
+  <div class="hero-left">
+    <h1>Hello, I'm <span>Mohnish</span></h1>
+    <h2 class="typing"></h2>
+
+    <div class="buttons">
+      <button onclick="scrollToSection('projects')">View Work</button>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/mohnish-bendwal-8a96b4381/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/mohnishbendwal07" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/_mohnish___07/" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="/profile.jpeg">
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <br><br>
+ <p>
+I am an enthusiastic developer with a strong foundation in frontend development and a growing interest in data science. I specialize in creating clean, responsive, and visually appealing web interfaces using HTML, CSS, and JavaScript.
+
+In addition to web development, I have experience working with Python for data analysis, including data cleaning and preprocessing using libraries like Pandas and NumPy. I enjoy solving problems and continuously improving my technical skills.
+
+My goal is to build impactful digital solutions and expand my knowledge in both development and data-driven technologies.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <h3 class="skill-heading">Web Development</h3>
+
+  <div class="skill">
+    <p>HTML</p>
+    <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+  </div>
+
+  <h3 class="skill-heading">Data Science</h3>
+
+  <div class="skill right">
+    <p>Python</p>
+    <div class="progress"><div class="progress-bar right-bar" data-width="65%"></div></div>
+  </div>
+
+  <div class="skill right">
+    <p>Data Cleaning</p>
+    <div class="progress"><div class="progress-bar right-bar" data-width="55%"></div></div>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+ <div class="project-container"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <p>Email: mohnishbendwal07@email.com</p>
+  <p>Phone: +91 9644075634</p>
+
+  <div class="contact-icons">
+    <a href="https://www.linkedin.com/in/mohnish-bendwal-8a96b4381/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/mohnishbendwal07" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.instagram.com/_mohnish___07/" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mohnish Bendwal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
