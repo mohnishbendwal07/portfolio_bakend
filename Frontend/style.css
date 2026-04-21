@@ -86,6 +86,7 @@ button:hover {
   box-shadow: 0 0 10px #38bdf8;
 }
 
+
 /* SOCIALS */
 .socials {
   margin-top: 20px;
@@ -180,6 +181,8 @@ section {
 }
 
 /* PROJECTS FIXED */
+
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -219,9 +222,15 @@ section {
   text-shadow: 0 0 10px #38bdf8;
 }
 
+
+
+
+
 /* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
   background: #020617;
 }
+
+
