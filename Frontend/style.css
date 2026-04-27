@@ -114,6 +114,7 @@ button:hover {
   width: 200px;
   height: 200px;
   background: #38bdf8;
+  pointer-events: none;
   opacity: 0.1;
   border-radius: 50%;
   animation: float 6s infinite ease-in-out;
